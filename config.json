@@ -2282,7 +2282,9 @@
         "version": "1.0.1",
         "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.Google.AI.Edge.LiteRT.Support.API",
-        "type": "androidlibrary"
+        "type": "androidlibrary",
+        "allowPrereleaseDependencies": true,
+        "comments": "Depends on Xamarin.Google.Android.ODML.Image which only has a prerelease version."
       },      
       {
         "groupId": "com.google.android",
