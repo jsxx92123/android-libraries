@@ -1,16 +1,11 @@
 ﻿<metadata>
-    <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image']/interface[@name='ImageOperator']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
-        name="managedReturn"
-        >
-        Java.Lang.Object
-    </attr>
-    <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image']/interface[@name='ImageOperator']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
-        name="managedType"
-        >
-        Java.Lang.Object
-    </attr>
+    <remove-node
+        path="/api/package[@name='org.tensorflow.lite.support.common']/class[@name='TensorProcessor.Builder']/method[@name='build' and count(parameter)=0 and @return='org.tensorflow.lite.support.common.TensorProcessor']"
+        />
+    <remove-node
+        path="/api/package[@name='org.tensorflow.lite.support.image']/class[@name='ImageProcessor.Builder']/method[@name='build' and count(parameter)=0 and @return='org.tensorflow.lite.support.image.ImageProcessor']"
+        />
+
 
     <attr
         path="/api/package[@name='org.tensorflow.lite.support.common']/interface[@name='TensorOperator']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.tensorbuffer.TensorBuffer']]"
@@ -26,18 +21,6 @@
     </attr>
 
     <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='TransformToGrayscaleOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
-        name="managedReturn"
-        >
-        Java.Lang.Object
-    </attr>
-    <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='TransformToGrayscaleOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
-        name="managedType"
-        >
-        Java.Lang.Object
-    </attr>
-    <attr
         path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='TensorOperatorWrapper']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
         name="managedReturn"
         >
@@ -49,45 +32,19 @@
         >
         Java.Lang.Object
     </attr>
-
     <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='Rot90Op']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
+        path="/api/package[@name='org.tensorflow.lite.support.image']/interface[@name='ImageOperator']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
         name="managedReturn"
         >
         Java.Lang.Object
     </attr>
     <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='Rot90Op']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
+        path="/api/package[@name='org.tensorflow.lite.support.image']/interface[@name='ImageOperator']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
         name="managedType"
         >
         Java.Lang.Object
     </attr>
 
-    <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
-        name="managedReturn"
-        >
-        Java.Lang.Object
-    </attr>
-    <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
-        name="managedType"
-        >
-        Java.Lang.Object
-    </attr>
-
-    <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeWithCropOrPadOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
-        name="managedReturn"
-        >
-        Java.Lang.Object
-    </attr>
-    <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeWithCropOrPadOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
-        name="managedType"
-        >
-        Java.Lang.Object
-    </attr>
 
     <attr
         path="/api/package[@name='org.tensorflow.lite.support.common.ops']/class[@name='CastOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.tensorbuffer.TensorBuffer']]"
@@ -101,7 +58,6 @@
         >
         Java.Lang.Object
     </attr>
-
     <attr
         path="/api/package[@name='org.tensorflow.lite.support.common.ops']/class[@name='NormalizeOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.tensorbuffer.TensorBuffer']]"
         name="managedReturn"
@@ -114,30 +70,54 @@
         >
         Java.Lang.Object
     </attr>
-
-    <!-- 
-    cb_build
-
     <attr
-        path="/api/package[@name='org.tensorflow.lite.support.common']/class[@name='TensorProcessor.Builder']/method[@name='build' and count(parameter)=0 and @return='org.tensorflow.lite.support.common.TensorProcessor']"
-        name="managedName"
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
+        name="managedReturn"
         >
-        BuildTensorProcessor
+        Java.Lang.Object
     </attr>
     <attr
-        path="/api/package[@name='org.tensorflow.lite.support.image']/class[@name='ImageProcessor.Builder']/method[@name='build' and count(parameter)=0 and @return='org.tensorflow.lite.support.image.ImageProcessor']"
-        name="managedName"
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
+        name="managedType"
         >
-        BuildImageProcessor
+        Java.Lang.Object
     </attr>
-    -->
-    <!--
-    -->
-    <remove-node
-        path="/api/package[@name='org.tensorflow.lite.support.common']/class[@name='TensorProcessor.Builder']/method[@name='build' and count(parameter)=0 and @return='org.tensorflow.lite.support.common.TensorProcessor']"
-        />
-    <remove-node
-        path="/api/package[@name='org.tensorflow.lite.support.image']/class[@name='ImageProcessor.Builder']/method[@name='build' and count(parameter)=0 and @return='org.tensorflow.lite.support.image.ImageProcessor']"
-        />
+    <attr
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeWithCropOrPadOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
+        name="managedReturn"
+        >
+        Java.Lang.Object
+    </attr>
+    <attr
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='ResizeWithCropOrPadOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
+        name="managedType"
+        >
+        Java.Lang.Object
+    </attr>
+    <attr
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='Rot90Op']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
+        name="managedReturn"
+        >
+        Java.Lang.Object
+    </attr>
+    <attr
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='Rot90Op']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
+        name="managedType"
+        >
+        Java.Lang.Object
+    </attr>
+    <attr
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='TransformToGrayscaleOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]"
+        name="managedReturn"
+        >
+        Java.Lang.Object
+    </attr>
+    <attr
+        path="/api/package[@name='org.tensorflow.lite.support.image.ops']/class[@name='TransformToGrayscaleOp']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='org.tensorflow.lite.support.image.TensorImage']]/parameter[1]"
+        name="managedType"
+        >
+        Java.Lang.Object
+    </attr>
+
 
 </metadata>
