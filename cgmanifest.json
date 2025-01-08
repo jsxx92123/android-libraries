@@ -4030,6 +4030,90 @@
       "component": {
         "type": "maven",
         "maven": {
+          "artifactId": "litert",
+          "groupId": "com.google.ai.edge.litert",
+          "version": "1.0.1",
+          "nuGetId": "Xamarin.Google.AI.Edge.LiteRT",
+          "nuGetVersion": "1.0.1"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "litert-api",
+          "groupId": "com.google.ai.edge.litert",
+          "version": "1.0.1",
+          "nuGetId": "Xamarin.Google.AI.Edge.LiteRT.API",
+          "nuGetVersion": "1.0.1"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "litert-gpu",
+          "groupId": "com.google.ai.edge.litert",
+          "version": "1.0.1",
+          "nuGetId": "Xamarin.Google.AI.Edge.LiteRT.GPU",
+          "nuGetVersion": "1.0.1"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "litert-gpu-api",
+          "groupId": "com.google.ai.edge.litert",
+          "version": "1.0.1",
+          "nuGetId": "Xamarin.Google.AI.Edge.LiteRT.GPU.API",
+          "nuGetVersion": "1.0.1"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "litert-metadata",
+          "groupId": "com.google.ai.edge.litert",
+          "version": "1.0.1",
+          "nuGetId": "Xamarin.Google.AI.Edge.LiteRT.Metadata",
+          "nuGetVersion": "1.0.1"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "litert-support",
+          "groupId": "com.google.ai.edge.litert",
+          "version": "1.0.1",
+          "nuGetId": "Xamarin.Google.AI.Edge.LiteRT.Support",
+          "nuGetVersion": "1.0.1"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "litert-support-api",
+          "groupId": "com.google.ai.edge.litert",
+          "version": "1.0.1",
+          "nuGetId": "Xamarin.Google.AI.Edge.LiteRT.Support.API",
+          "nuGetVersion": "1.0.1"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
           "artifactId": "annotations",
           "groupId": "com.google.android",
           "version": "4.1.1.4",

@@ -2229,6 +2229,64 @@
         "type": "xbd"
       },
       {
+        "groupId": "com.google.ai.edge.litert",
+        "artifactId": "litert",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
+        "nugetId": "Xamarin.Google.AI.Edge.LiteRT",
+        "type": "androidlibrary"
+      },
+      {
+        "groupId": "com.google.ai.edge.litert",
+        "artifactId": "litert-api",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
+        "nugetId": "Xamarin.Google.AI.Edge.LiteRT.API",
+        "type": "androidlibrary"
+      },      
+      {
+        "groupId": "com.google.ai.edge.litert",
+        "artifactId": "litert-gpu",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
+        "nugetId": "Xamarin.Google.AI.Edge.LiteRT.GPU",
+        "type": "androidlibrary"
+      },      
+      {
+        "groupId": "com.google.ai.edge.litert",
+        "artifactId": "litert-gpu-api",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
+        "nugetId": "Xamarin.Google.AI.Edge.LiteRT.GPU.API",
+        "type": "androidlibrary"
+      },      
+      {
+        "groupId": "com.google.ai.edge.litert",
+        "artifactId": "litert-metadata",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
+        "nugetId": "Xamarin.Google.AI.Edge.LiteRT.Metadata",
+        "type": "androidlibrary"
+      },      
+      {
+        "groupId": "com.google.ai.edge.litert",
+        "artifactId": "litert-support",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
+        "nugetId": "Xamarin.Google.AI.Edge.LiteRT.Support",
+        "type": "androidlibrary"
+      },      
+      {
+        "groupId": "com.google.ai.edge.litert",
+        "artifactId": "litert-support-api",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
+        "nugetId": "Xamarin.Google.AI.Edge.LiteRT.Support.API",
+        "type": "androidlibrary",
+        "allowPrereleaseDependencies": true,
+        "comments": "Depends on Xamarin.Google.Android.ODML.Image which only has a prerelease version."
+      },      
+      {
         "groupId": "com.google.android",
         "artifactId": "annotations",
         "version": "4.1.1.4",
