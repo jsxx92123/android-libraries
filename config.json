@@ -2015,10 +2015,17 @@
       },
       {
         "groupId": "androidx.work",
+        "artifactId": "work-gcm",
+        "version": "2.10.0",
+        "nugetVersion": "2.10.0.2",
+        "nugetId": "Xamarin.AndroidX.Work.GCM"
+      },
+      {
+        "groupId": "androidx.work",
         "artifactId": "work-multiprocess",
         "version": "2.10.0",
         "nugetVersion": "2.10.0.2",
-        "nugetId": "Xamarin.AndroidX.Work.MultiProcess"
+        "nugetId": "Xamarin.AndroidX.Work.Work.Multiprocess"
       },
       {
         "groupId": "androidx.work",
@@ -2033,6 +2040,20 @@
         "version": "2.10.0",
         "nugetVersion": "2.10.0.2",
         "nugetId": "Xamarin.AndroidX.Work.Work.Runtime.Ktx"
+      },
+      {
+        "groupId": "androidx.work",
+        "artifactId": "work-rxjava2",
+        "version": "2.10.0",
+        "nugetVersion": "2.10.0.2",
+        "nugetId": "Xamarin.AndroidX.Work.Work.RxJava2"
+      },
+      {
+        "groupId": "androidx.work",
+        "artifactId": "work-rxjava3",
+        "version": "2.10.0",
+        "nugetVersion": "2.10.0.2",
+        "nugetId": "Xamarin.AndroidX.Work.Work.RxJava3"
       },
       {
         "groupId": "aopalliance",
