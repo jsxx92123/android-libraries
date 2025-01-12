@@ -698,29 +698,29 @@
       {
         "groupId": "androidx.databinding",
         "artifactId": "databinding-adapters",
-        "version": "8.7.3",
-        "nugetVersion": "8.7.3",
+        "version": "8.8.0",
+        "nugetVersion": "8.8.0",
         "nugetId": "Xamarin.AndroidX.DataBinding.DataBindingAdapters"
       },
       {
         "groupId": "androidx.databinding",
         "artifactId": "databinding-common",
-        "version": "8.7.3",
-        "nugetVersion": "8.7.3",
+        "version": "8.8.0",
+        "nugetVersion": "8.8.0",
         "nugetId": "Xamarin.AndroidX.DataBinding.DataBindingCommon"
       },
       {
         "groupId": "androidx.databinding",
         "artifactId": "databinding-runtime",
-        "version": "8.7.3",
-        "nugetVersion": "8.7.3",
+        "version": "8.8.0",
+        "nugetVersion": "8.8.0",
         "nugetId": "Xamarin.AndroidX.DataBinding.DataBindingRuntime"
       },
       {
         "groupId": "androidx.databinding",
         "artifactId": "viewbinding",
-        "version": "8.7.3",
-        "nugetVersion": "8.7.3",
+        "version": "8.8.0",
+        "nugetVersion": "8.8.0",
         "nugetId": "Xamarin.AndroidX.DataBinding.ViewBinding"
       },
       {
@@ -2243,7 +2243,7 @@
         "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.Google.AI.Edge.LiteRT.API",
         "type": "androidlibrary"
-      },      
+      },
       {
         "groupId": "com.google.ai.edge.litert",
         "artifactId": "litert-gpu",
@@ -2251,7 +2251,7 @@
         "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.Google.AI.Edge.LiteRT.GPU",
         "type": "androidlibrary"
-      },      
+      },
       {
         "groupId": "com.google.ai.edge.litert",
         "artifactId": "litert-gpu-api",
@@ -2259,7 +2259,7 @@
         "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.Google.AI.Edge.LiteRT.GPU.API",
         "type": "androidlibrary"
-      },      
+      },
       {
         "groupId": "com.google.ai.edge.litert",
         "artifactId": "litert-metadata",
@@ -2267,7 +2267,7 @@
         "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.Google.AI.Edge.LiteRT.Metadata",
         "type": "androidlibrary"
-      },      
+      },
       {
         "groupId": "com.google.ai.edge.litert",
         "artifactId": "litert-support",
@@ -2275,17 +2275,17 @@
         "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.Google.AI.Edge.LiteRT.Support",
         "type": "androidlibrary"
-      },      
+      },
       {
         "groupId": "com.google.ai.edge.litert",
         "artifactId": "litert-support-api",
         "version": "1.0.1",
         "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.Google.AI.Edge.LiteRT.Support.API",
-        "type": "androidlibrary",
         "allowPrereleaseDependencies": true,
+        "type": "androidlibrary",
         "comments": "Depends on Xamarin.Google.Android.ODML.Image which only has a prerelease version."
-      },      
+      },
       {
         "groupId": "com.google.android",
         "artifactId": "annotations",
@@ -3181,8 +3181,8 @@
       {
         "groupId": "com.google.android.tv",
         "artifactId": "tv-ads",
-        "version": "1.0.0",
-        "nugetVersion": "1.0.0.3",
+        "version": "1.0.1",
+        "nugetVersion": "1.0.1",
         "nugetId": "Xamarin.GoogleAndroid.TV.Ads",
         "type": "xbd"
       },
@@ -3249,8 +3249,8 @@
       {
         "groupId": "com.google.dagger",
         "artifactId": "dagger",
-        "version": "2.54",
-        "nugetVersion": "2.54.0",
+        "version": "2.55",
+        "nugetVersion": "2.55.0",
         "nugetId": "Xamarin.Google.Dagger",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4254,8 +4254,8 @@
       {
         "groupId": "com.google.protobuf",
         "artifactId": "protobuf-javalite",
-        "version": "4.29.2",
-        "nugetVersion": "4.29.2",
+        "version": "4.29.3",
+        "nugetVersion": "4.29.3",
         "nugetId": "Xamarin.Protobuf.JavaLite",
         "excludedRuntimeDependencies": "junit.junit,org.easymock.easymock,org.easymock.easymockclassextension,com.google.truth.truth",
         "type": "androidlibrary",
@@ -4649,8 +4649,8 @@
       {
         "groupId": "org.checkerframework",
         "artifactId": "checker-qual",
-        "version": "3.48.3",
-        "nugetVersion": "3.48.3",
+        "version": "3.48.4",
+        "nugetVersion": "3.48.4",
         "nugetId": "Xamarin.CheckerFramework.CheckerQual",
         "type": "no-bindings",
         "mavenRepositoryType": "MavenCentral"
