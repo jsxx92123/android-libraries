@@ -2015,16 +2015,23 @@
       },
       {
         "groupId": "androidx.work",
+        "artifactId": "work-multiprocess",
+        "version": "2.10.0",
+        "nugetVersion": "2.10.0.2",
+        "nugetId": "Xamarin.AndroidX.Work.MultiProcess"
+      },
+      {
+        "groupId": "androidx.work",
         "artifactId": "work-runtime",
         "version": "2.10.0",
-        "nugetVersion": "2.10.0.1",
+        "nugetVersion": "2.10.0.2",
         "nugetId": "Xamarin.AndroidX.Work.Runtime"
       },
       {
         "groupId": "androidx.work",
         "artifactId": "work-runtime-ktx",
         "version": "2.10.0",
-        "nugetVersion": "2.10.0.1",
+        "nugetVersion": "2.10.0.2",
         "nugetId": "Xamarin.AndroidX.Work.Work.Runtime.Ktx"
       },
       {
