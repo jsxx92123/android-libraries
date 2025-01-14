@@ -18,9 +18,6 @@
   <remove-node
     path="/api/package[@name='androidx.media3.exoplayer']/class[@name='SimpleExoPlayer']"
         />
-  <remove-node
-    path="/api/package[@name='androidx.media3.exoplayer.source']/interface[@name='MediaSourceFactory']"
-        />
 
   <!-- Duplicate inherited interface methods -->
   <remove-node
@@ -305,6 +302,56 @@
         name="managedReturn"
         >
         AndroidX.Media3.ExoPlayer.IRendererCapabilitiesList
+    </attr>
+
+    <!--
+      path="/api/package[@name='androidx.media3.exoplayer.source']/interface[@name='MediaSource.Factory']"
+      IMediaSourceFactory
+
+
+    -->
+    <attr
+        path="/api/package[@name='androidx.media3.exoplayer.source']/interface[@name='MediaSource.Factory']"
+        name="managedName"
+        >
+        IMediaSourceIFactory
+    </attr>
+    <attr
+        path="/api/package[@name='androidx.media3.exoplayer.source']/interface[@name='MediaSourceFactory']"
+        name="managedName"
+        >
+        IMediaSourceFactory
+    </attr>
+
+    <attr
+        path="/api/package[@name='androidx.media3.exoplayer.source']/class[@name='DefaultMediaSourceFactory']/method[@name='setDrmSessionManagerProvider' and count(parameter)=1 and parameter[1][@type='androidx.media3.exoplayer.drm.DrmSessionManagerProvider']]"
+        name="managedReturn"
+        >
+        AndroidX.Media3.ExoPlayer.Source.IMediaSourceMediaSourceIFactory
+    </attr>
+    <attr
+        path="/api/package[@name='androidx.media3.exoplayer.source']/class[@name='DefaultMediaSourceFactory']/method[@name='setLoadErrorHandlingPolicy' and count(parameter)=1 and parameter[1][@type='androidx.media3.exoplayer.upstream.LoadErrorHandlingPolicy']]"
+        name="managedReturn"
+        >
+        AndroidX.Media3.ExoPlayer.Source.IMediaSourceMediaSourceIFactory
+    </attr>
+    <attr
+        path="/api/package[@name='androidx.media3.exoplayer.source']/class[@name='ProgressiveMediaSource.Factory']/method[@name='setLoadErrorHandlingPolicy' and count(parameter)=1 and parameter[1][@type='androidx.media3.exoplayer.upstream.LoadErrorHandlingPolicy']]"
+        name="managedReturn"
+        >
+        AndroidX.Media3.ExoPlayer.Source.IMediaSourceMediaSourceIFactory
+    </attr>
+    <attr
+        path="/api/package[@name='androidx.media3.exoplayer.source']/class[@name='ProgressiveMediaSource.Factory']/method[@name='createMediaSource' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.MediaItem']]"
+        name="managedReturn"
+        >
+        AndroidX.Media3.ExoPlayer.Source.IMediaSource
+    </attr>
+    <attr
+        path="/api/package[@name='androidx.media3.exoplayer.source']/class[@name='ProgressiveMediaSource.Factory']/method[@name='setDrmSessionManagerProvider' and count(parameter)=1 and parameter[1][@type='androidx.media3.exoplayer.drm.DrmSessionManagerProvider']]"
+        name="managedReturn"
+        >
+        AndroidX.Media3.ExoPlayer.Source.IMediaSourceMediaSourceIFactory
     </attr>
 
 </metadata> 
