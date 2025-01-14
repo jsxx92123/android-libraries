@@ -291,11 +291,11 @@
 | 284|androidx.window:window-rxjava3                                        |1.3.0               |Xamarin.AndroidX.Window.WindowRxJava3                                 |1.3.0.4             |
 | 285|androidx.window.extensions.core:core                                  |1.0.0               |Xamarin.AndroidX.Window.Extensions.Core.Core                          |1.0.0.12            |
 | 286|androidx.work:work-gcm                                                |2.10.0              |Xamarin.AndroidX.Work.GCM                                             |2.10.0.2            |
-| 287|androidx.work:work-multiprocess                                       |2.10.0              |Xamarin.AndroidX.Work.Work.Multiprocess                               |2.10.0.2            |
+| 287|androidx.work:work-multiprocess                                       |2.10.0              |Xamarin.AndroidX.Work.Multiprocess                                    |2.10.0.2            |
 | 288|androidx.work:work-runtime                                            |2.10.0              |Xamarin.AndroidX.Work.Runtime                                         |2.10.0.2            |
 | 289|androidx.work:work-runtime-ktx                                        |2.10.0              |Xamarin.AndroidX.Work.Work.Runtime.Ktx                                |2.10.0.2            |
-| 290|androidx.work:work-rxjava2                                            |2.10.0              |Xamarin.AndroidX.Work.Work.RxJava2                                    |2.10.0.2            |
-| 291|androidx.work:work-rxjava3                                            |2.10.0              |Xamarin.AndroidX.Work.Work.RxJava3                                    |2.10.0.2            |
+| 290|androidx.work:work-rxjava2                                            |2.10.0              |Xamarin.AndroidX.Work.RxJava2                                         |2.10.0.2            |
+| 291|androidx.work:work-rxjava3                                            |2.10.0              |Xamarin.AndroidX.Work.RxJava3                                         |2.10.0.2            |
 | 292|aopalliance:aopalliance                                               |1.0                 |Xamarin.AopAlliance                                                   |1.0.0.5             |
 | 293|com.android.billingclient:billing                                     |7.1.1               |Xamarin.Android.Google.BillingClient                                  |7.1.1.1             |
 | 294|com.android.billingclient:billing-ktx                                 |7.1.1               |Xamarin.Android.Google.BillingClient.Ktx                              |7.1.1.1             |
