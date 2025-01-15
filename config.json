@@ -2025,7 +2025,7 @@
         "artifactId": "work-multiprocess",
         "version": "2.10.0",
         "nugetVersion": "2.10.0.2",
-        "nugetId": "Xamarin.AndroidX.Work.MultiProcess"
+        "nugetId": "Xamarin.AndroidX.Work.Multiprocess"
       },
       {
         "groupId": "androidx.work",
