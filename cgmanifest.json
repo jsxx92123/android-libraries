@@ -3710,11 +3710,37 @@
       "component": {
         "type": "maven",
         "maven": {
+          "artifactId": "work-gcm",
+          "groupId": "androidx.work",
+          "version": "2.10.0",
+          "nuGetId": "Xamarin.AndroidX.Work.GCM",
+          "nuGetVersion": "2.10.0.2"
+        }
+      },
+      "license": "The Apache Software License, Version 2.0"
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "work-multiprocess",
+          "groupId": "androidx.work",
+          "version": "2.10.0",
+          "nuGetId": "Xamarin.AndroidX.Work.MultiProcess",
+          "nuGetVersion": "2.10.0.2"
+        }
+      },
+      "license": "The Apache Software License, Version 2.0"
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
           "artifactId": "work-runtime",
           "groupId": "androidx.work",
           "version": "2.10.0",
           "nuGetId": "Xamarin.AndroidX.Work.Runtime",
-          "nuGetVersion": "2.10.0.1"
+          "nuGetVersion": "2.10.0.2"
         }
       },
       "license": "The Apache Software License, Version 2.0"
@@ -3727,7 +3753,33 @@
           "groupId": "androidx.work",
           "version": "2.10.0",
           "nuGetId": "Xamarin.AndroidX.Work.Work.Runtime.Ktx",
-          "nuGetVersion": "2.10.0.1"
+          "nuGetVersion": "2.10.0.2"
+        }
+      },
+      "license": "The Apache Software License, Version 2.0"
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "work-rxjava2",
+          "groupId": "androidx.work",
+          "version": "2.10.0",
+          "nuGetId": "Xamarin.AndroidX.Work.RxJava2",
+          "nuGetVersion": "2.10.0.2"
+        }
+      },
+      "license": "The Apache Software License, Version 2.0"
+    },
+    {
+      "component": {
+        "type": "maven",
+        "maven": {
+          "artifactId": "work-rxjava3",
+          "groupId": "androidx.work",
+          "version": "2.10.0",
+          "nuGetId": "Xamarin.AndroidX.Work.RxJava3",
+          "nuGetVersion": "2.10.0.2"
         }
       },
       "license": "The Apache Software License, Version 2.0"
