@@ -4501,8 +4501,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-android",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.Android",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4510,8 +4510,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-api",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.Api",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4519,8 +4519,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-context",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.Context",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4528,8 +4528,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-core",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.Core",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4537,8 +4537,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-okhttp",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.OkHttp",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4546,8 +4546,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-protobuf-lite",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.Protobuf.Lite",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4555,8 +4555,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-stub",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.Stub",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -4564,8 +4564,8 @@
       {
         "groupId": "io.grpc",
         "artifactId": "grpc-util",
-        "version": "1.70.0",
-        "nugetVersion": "1.70.0",
+        "version": "1.63.2",
+        "nugetVersion": "1.63.2.3",
         "nugetId": "Xamarin.Grpc.Util",
         "excludedRuntimeDependencies": "io.grpc.grpc-core,junit.junit,io.grpc.grpc-testing,org.mockito.mockito-core",
         "type": "androidlibrary",
@@ -5026,8 +5026,8 @@
       {
         "groupId": "org.tensorflow",
         "artifactId": "tensorflow-lite",
-        "version": "2.17.0",
-        "nugetVersion": "2.17.0",
+        "version": "2.16.1",
+        "nugetVersion": "2.16.1.4",
         "nugetId": "Xamarin.TensorFlow.Lite",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -5035,8 +5035,8 @@
       {
         "groupId": "org.tensorflow",
         "artifactId": "tensorflow-lite-api",
-        "version": "2.17.0",
-        "nugetVersion": "2.17.0",
+        "version": "2.16.1",
+        "nugetVersion": "2.16.1.4",
         "nugetId": "Xamarin.TensorFlow.Lite.Api",
         "assemblyName": "org.tensorflow.tensorflow-lite-api",
         "type": "androidlibrary",
@@ -5045,8 +5045,8 @@
       {
         "groupId": "org.tensorflow",
         "artifactId": "tensorflow-lite-gpu",
-        "version": "2.17.0",
-        "nugetVersion": "2.17.0",
+        "version": "2.16.1",
+        "nugetVersion": "2.16.1.4",
         "nugetId": "Xamarin.TensorFlow.Lite.Gpu",
         "type": "androidlibrary",
         "mavenRepositoryType": "MavenCentral"
@@ -5054,8 +5054,8 @@
       {
         "groupId": "org.tensorflow",
         "artifactId": "tensorflow-lite-gpu-api",
-        "version": "2.17.0",
-        "nugetVersion": "2.17.0",
+        "version": "2.16.1",
+        "nugetVersion": "2.16.1.4",
         "nugetId": "Xamarin.TensorFlow.Lite.Gpu.Api",
         "assemblyName": "org.tensorflow.tensorflow-lite-gpu-api",
         "type": "androidlibrary",
