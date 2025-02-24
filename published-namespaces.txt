@@ -22,7 +22,6 @@ Android.Gms.Ads.Preload
 Android.Gms.Ads.Query
 Android.Gms.Ads.Rewarded
 Android.Gms.Ads.RewardedInterstitial
-Android.Gms.Ads.Search
 Android.Gms.Analytics
 Android.Gms.Analytics.Ecommerce
 Android.Gms.AppIndex
