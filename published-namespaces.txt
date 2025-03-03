@@ -422,7 +422,7 @@ AndroidX.Core.View.Animation
 AndroidX.Core.View.AutoFill
 AndroidX.Core.View.ContentCapture
 AndroidX.Core.View.InputMethod
-AndroidX.Core.Viewtree
+AndroidX.Core.ViewTree
 AndroidX.Core.Widget
 AndroidX.Credentials
 AndroidX.Credentials.Exceptions
