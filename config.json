@@ -3279,6 +3279,15 @@
       },
       {
         "groupId": "com.google.auto.value",
+        "artifactId": "auto-value",
+        "version": "1.11.0",
+        "nugetVersion": "1.11.0.5",
+        "nugetId": "Xamarin.Google.AutoValue",
+        "type": "androidlibrary",
+        "mavenRepositoryType": "MavenCentral"
+      },
+      {
+        "groupId": "com.google.auto.value",
         "artifactId": "auto-value-annotations",
         "version": "1.11.0",
         "nugetVersion": "1.11.0.5",
