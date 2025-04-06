@@ -33,6 +33,7 @@ public class TestAllIndividualPackages
 		"Xamarin.GooglePlayServices.Measurement.Base",
 		"Xamarin.GooglePlayServices.Measurement.Sdk",
 		"Xamarin.GooglePlayServices.Analytics.Impl",
+		"Xamarin.GooglePlayServices.TagManager",
 
 		// Firebase packages
 		// - Duplicate managed types (due to Xamarin.AndroidX.DataStore.Core.Android and Xamarin.AndroidX.DataStore.Core.Jvm)
@@ -89,6 +90,9 @@ public class TestAllIndividualPackages
 		"Xamarin.Google.AI.Edge.LiteRT.Metadata",
 		"Xamarin.Google.AI.Edge.LiteRT.Support",
 		"Xamarin.Google.AI.Edge.LiteRT.Support.API",
+
+		"Xamarin.CodeHaus.Mojo.AnimalSnifferAnnotations",
+
 	];
 
 	static TestAllIndividualPackages ()
