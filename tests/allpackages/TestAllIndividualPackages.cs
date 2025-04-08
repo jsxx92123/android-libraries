@@ -33,7 +33,7 @@ public class TestAllIndividualPackages
 		"Xamarin.GooglePlayServices.Measurement.Base",
 		"Xamarin.GooglePlayServices.Measurement.Sdk",
 		"Xamarin.GooglePlayServices.Analytics.Impl",
-		"Xamarin.GooglePlayServices.TagManager",
+		"Xamarin.GooglePlayServices.TagManager.Api",
 
 		// Firebase packages
 		// - Duplicate managed types (due to Xamarin.AndroidX.DataStore.Core.Android and Xamarin.AndroidX.DataStore.Core.Jvm)
