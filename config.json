@@ -5004,24 +5004,6 @@
       },
       {
         "groupId": "org.jetbrains.kotlinx",
-        "artifactId": "kotlinx-serialization-protobuf",
-        "version": "1.7.3",
-        "nugetVersion": "1.7.3.3",
-        "nugetId": "Xamarin.KotlinX.Serialization.Protobuf",
-        "type": "androidlibrary",
-        "mavenRepositoryType": "MavenCentral"
-      },
-      {
-        "groupId": "org.jetbrains.kotlinx",
-        "artifactId": "kotlinx-serialization-protobuf-jvm",
-        "version": "1.7.3",
-        "nugetVersion": "1.7.3.3",
-        "nugetId": "Xamarin.KotlinX.Serialization.Protobuf.Jvm",
-        "type": "androidlibrary",
-        "mavenRepositoryType": "MavenCentral"
-      },
-      {
-        "groupId": "org.jetbrains.kotlinx",
         "artifactId": "kotlinx-serialization-protobuf-jvm",
         "version": "1.7.3",
         "nugetVersion": "1.7.3.3",
