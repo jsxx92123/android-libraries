@@ -225,6 +225,7 @@ public class TestAllIndividualPackages
 
 		var root = xml.DocumentElement!;
 		var item_group = xml.CreateElement ("ItemGroup");
+		item_group.SetAttribute ("Condition", "$(TargetFramework.Contains('-android')) == true");
 		root.AppendChild (item_group);
 
 		foreach (var package in packages) {
