@@ -91,8 +91,20 @@ public class TestAllIndividualPackages
 		// - Replace <SupportedOSPlatformVersion> with the maximum version some packages require
 		// - Remove the target frameworks that are not 'android'
 		var proj_file = Directory.GetFiles (case_dir, "*.csproj").FirstOrDefault ();
-
+		
 		if (proj_file is not null) {
+			
+			XmlDocument xd = new ();
+			xd.Load (proj_file);
+
+			XmlNodeList nl = xd.SelectNodes("//*[starts-with(name(), 'TargetFramework')]");
+
+			foreach (XmlNode node in nl) 
+			{
+				node.InnerText = $"{net_version}-android";
+			}
+			xd.Save(proj_file);
+
 			ReplaceInFile (proj_file, ">21</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
 			ReplaceInFile (proj_file, ">21.0</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
 			ReplaceInFile (proj_file, $";{net_version}-ios", "");
