@@ -93,7 +93,7 @@ public class TestAllIndividualPackages
 		var proj_file = Directory.GetFiles (case_dir, "*.csproj").FirstOrDefault ();
 		
 		if (proj_file is not null) {
-			
+      
 			XmlDocument xd = new ();
 			xd.Load (proj_file);
 

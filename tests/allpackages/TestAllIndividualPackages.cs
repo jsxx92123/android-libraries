@@ -32,6 +32,10 @@ public class TestAllIndividualPackages
 		"Xamarin.GooglePlayServices.Gass",
 		"Xamarin.GooglePlayServices.Measurement.Base",
 		"Xamarin.GooglePlayServices.Measurement.Sdk",
+		"Xamarin.GooglePlayServices.Analytics",
+		"Xamarin.GooglePlayServices.Analytics.Impl",
+		"Xamarin.GooglePlayServices.TagManager.Api",
+		"Xamarin.GooglePlayServices.TagManager.V4.Impl",
 
 		// Firebase packages
 		// - Duplicate managed types (due to Xamarin.AndroidX.DataStore.Core.Android and Xamarin.AndroidX.DataStore.Core.Jvm)
@@ -88,6 +92,9 @@ public class TestAllIndividualPackages
 		"Xamarin.Google.AI.Edge.LiteRT.Metadata",
 		"Xamarin.Google.AI.Edge.LiteRT.Support",
 		"Xamarin.Google.AI.Edge.LiteRT.Support.API",
+
+		"Xamarin.CodeHaus.Mojo.AnimalSnifferAnnotations",
+
 	];
 
 	static TestAllIndividualPackages ()
@@ -180,8 +187,8 @@ public class TestAllIndividualPackages
 			node.InnerText = $"{net_version}-android";
 		}
 		xd.Save(proj_file);
-		
-		ReplaceInFile (proj_file, ">21</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
+
+    ReplaceInFile (proj_file, ">21</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
 		ReplaceInFile (proj_file, ">21.0</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
 		ReplaceInFile (proj_file, $";{net_version}-ios", "");
 		ReplaceInFile (proj_file, $";{net_version}-maccatalyst", "");
@@ -231,6 +238,7 @@ public class TestAllIndividualPackages
 
 		var root = xml.DocumentElement!;
 		var item_group = xml.CreateElement ("ItemGroup");
+		item_group.SetAttribute ("Condition", "$(TargetFramework.Contains('-android')) == true");
 		root.AppendChild (item_group);
 
 		foreach (var package in packages) {
