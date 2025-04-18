@@ -1,4 +1,5 @@
 using System.Text;
+using System.Xml;
 using CliWrap;
 using CliWrap.Buffered;
 using NUnit.Framework;
@@ -97,13 +98,15 @@ public class TestAllIndividualPackages
 			XmlDocument xd = new ();
 			xd.Load (proj_file);
 
-			XmlNodeList nl = xd.SelectNodes("//*[starts-with(name(), 'TargetFramework')]");
+			XmlNodeList? nl = xd.SelectNodes("//*[starts-with(name(), 'TargetFramework')]");
 
-			foreach (XmlNode node in nl) 
-			{
-				node.InnerText = $"{net_version}-android";
+			if (nl is not null) {
+				foreach (XmlNode node in nl) {
+					node.InnerText = $"{net_version}-android";
+				}
+
+				xd.Save (proj_file);
 			}
-			xd.Save(proj_file);
 
 			ReplaceInFile (proj_file, ">21</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
 			ReplaceInFile (proj_file, ">21.0</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
