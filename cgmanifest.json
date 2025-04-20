@@ -4729,7 +4729,7 @@
           "groupId": "com.google.android.gms",
           "version": "16.0.0-alpha04",
           "nuGetId": "Xamarin.GooglePlayServices.Identity.Credentials",
-          "nuGetVersion": "116.0.0"
+          "nuGetVersion": "116.0.0-alpha04"
         }
       },
       "license": "Android Software Development Kit License"
@@ -8279,32 +8279,6 @@
           "groupId": "org.jetbrains.kotlinx",
           "version": "1.7.3",
           "nuGetId": "Xamarin.KotlinX.Serialization.Protobuf",
-          "nuGetVersion": "1.7.3.3"
-        }
-      },
-      "license": "The Apache Software License, Version 2.0"
-    },
-    {
-      "component": {
-        "type": "maven",
-        "maven": {
-          "artifactId": "kotlinx-serialization-protobuf",
-          "groupId": "org.jetbrains.kotlinx",
-          "version": "1.7.3",
-          "nuGetId": "Xamarin.KotlinX.Serialization.Protobuf",
-          "nuGetVersion": "1.7.3.3"
-        }
-      },
-      "license": "The Apache Software License, Version 2.0"
-    },
-    {
-      "component": {
-        "type": "maven",
-        "maven": {
-          "artifactId": "kotlinx-serialization-protobuf-jvm",
-          "groupId": "org.jetbrains.kotlinx",
-          "version": "1.7.3",
-          "nuGetId": "Xamarin.KotlinX.Serialization.Protobuf.Jvm",
           "nuGetVersion": "1.7.3.3"
         }
       },
