@@ -33,13 +33,13 @@ public class Engine
 
 	static async Task ProcessConfig (BindingConfig config)
 	{
-		Console.WriteLine("Processing config...");
+		Console.WriteLine ("Processing config...");
 		var slnProjModels = new Dictionary<string, BindingProjectModel> ();
 
-		Console.WriteLine("	converting config...");
+		Console.WriteLine ("	converting config...");
 		var models = BindingProjectConverter.Convert (config);
 
-		Console.WriteLine("	verifying config...");
+		Console.WriteLine ("	verifying config...");
 		BindingProjectDependencyVerifier.Verify (config, models);
 		BindingProjectConsistencyVerifier.Verify (models);
 
