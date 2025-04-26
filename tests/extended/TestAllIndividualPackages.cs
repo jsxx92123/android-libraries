@@ -105,6 +105,7 @@ public class TestAllIndividualPackages
 					node.InnerText = $"{net_version}-android";
 				}
 			}
+			xd.Save(proj_file);
 
 			ReplaceInFile (proj_file, ">21</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
 			ReplaceInFile (proj_file, ">21.0</SupportedOSPlatformVersion>", $">{platform_version}</SupportedOSPlatformVersion>");
