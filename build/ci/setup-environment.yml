@@ -25,9 +25,7 @@ steps:
       
   - ${{ each tool in parameters.dotnetTools }}:
     - ${{ each pair in tool }}:
-      - pwsh: |
-          dotnet tool uninstall -g ${{ pair.key }} --version ${{ pair.value }}
-          dotnet tool install   -g ${{ pair.key }} --version ${{ pair.value }}
+      - pwsh: dotnet tool update -g ${{ pair.key }} --version ${{ pair.value }}
         displayName: 'Install tool: ${{ pair.key }}'
 
   - ${{ if eq(parameters.runDotnetNextTest, true) }}:
