@@ -18,6 +18,9 @@ Task ("nuget")
         "./generated/AndroidX.sln", 
         new DotNetBuildSettings { MSBuildSettings = settings }
     );
+
+    RunTarget("nuget-uninstall");
+
 });
 
 Task ("nuget-pack-without-build")
