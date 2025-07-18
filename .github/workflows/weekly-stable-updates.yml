@@ -36,7 +36,7 @@ jobs:
 
           Commit the changes.
 
-          Build the repo and commit any changes to `PublicApi.*.txt` files.
+          Build the repo and commit any changes to \`PublicApi.*.txt\` files.
 
           Lastly, run:
           \`\`\`
