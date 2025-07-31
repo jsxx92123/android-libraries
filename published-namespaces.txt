@@ -803,8 +803,6 @@ Firebase.Abt.Component
 Firebase.Analytics
 Firebase.Analytics.Connector
 Firebase.Analytics.Connector.Internal
-Firebase.Analytics.Ktx
-Firebase.Analytics.Ktx.KtxTesting
 Firebase.Analytics.KtxTesting
 Firebase.Annotations
 Firebase.Annotations.Concurrent
@@ -812,7 +810,6 @@ Firebase.AppCheck
 Firebase.AppCheck.Internal
 Firebase.AppCheck.Internal.Util
 Firebase.AppCheck.Interop
-Firebase.AppCheck.Ktx
 Firebase.AppCheck.PlayIntegrity
 Firebase.AppCheck.PlayIntegrity.Internal
 Firebase.AppIndexing
@@ -821,7 +818,6 @@ Firebase.AppIndexing.Internal
 Firebase.AppInvite
 Firebase.Auth
 Firebase.Auth.Internal
-Firebase.Auth.Ktx
 Firebase.Components
 Firebase.Concurrent
 Firebase.Crash
@@ -840,7 +836,6 @@ Firebase.Crashlytics.Internal.Persistence
 Firebase.Crashlytics.Internal.Send
 Firebase.Crashlytics.Internal.Settings
 Firebase.Crashlytics.Internal.Stacktrace
-Firebase.Crashlytics.Ktx
 Firebase.Crashlytics.NDK
 Firebase.Database
 Firebase.Database.Android
@@ -856,7 +851,6 @@ Firebase.Database.Core.Utilities.Encoding
 Firebase.Database.Core.Utilities.Tuple
 Firebase.Database.Core.View
 Firebase.Database.Core.View.Filter
-Firebase.Database.Ktx
 Firebase.Database.Logging
 Firebase.Database.Snapshot
 Firebase.Database.Tubesock
@@ -877,7 +871,6 @@ Firebase.Firestore.Auth
 Firebase.Firestore.Bundle
 Firebase.Firestore.Core
 Firebase.Firestore.Index
-Firebase.Firestore.Ktx
 Firebase.Firestore.Local
 Firebase.Firestore.Model
 Firebase.Firestore.Model.Mutation
@@ -888,7 +881,6 @@ Firebase.Functions
 Firebase.Functions.Dagger
 Firebase.Functions.Dagger.Assisted
 Firebase.Functions.Dagger.Interal
-Firebase.Functions.Ktx
 Firebase.HeartBeatInfo
 Firebase.Iid
 Firebase.Iid.Internal
@@ -905,20 +897,17 @@ Firebase.InAppMessaging.Display.Internal.Injection.Modules
 Firebase.InAppMessaging.Display.Internal.Injection.Scopes
 Firebase.InAppMessaging.Display.Internal.Layout
 Firebase.InAppMessaging.Display.Internal.Layout.Util
-Firebase.InAppMessaging.Display.Ktx
 Firebase.InAppMessaging.Internal
 Firebase.InAppMessaging.Internal.Injection.Components
 Firebase.InAppMessaging.Internal.Injection.Modules
 Firebase.InAppMessaging.Internal.Injection.Qualifiers
 Firebase.InAppMessaging.Internal.Injection.Scopes
 Firebase.InAppMessaging.Internal.Time
-Firebase.InAppMessaging.Ktx
 Firebase.InAppMessaging.Model
 Firebase.Inject
 Firebase.Installations
 Firebase.Installations.Internal
 Firebase.Installations.InterOp
-Firebase.Installations.Ktx
 Firebase.Installations.Local
 Firebase.Installations.Remote
 Firebase.Installations.Time
@@ -927,7 +916,6 @@ Firebase.Internal.Api
 Firebase.Ktx
 Firebase.Logger
 Firebase.Messaging
-Firebase.Messaging.Ktx
 Firebase.Messaging.Reporting
 Firebase.Messaging.Threads
 Firebase.ML.Common
@@ -962,7 +950,6 @@ Firebase.Perf.Application
 Firebase.Perf.Config
 Firebase.Perf.Injection.Components
 Firebase.Perf.Injection.Modules
-Firebase.Perf.Ktx
 Firebase.Perf.Logging
 Firebase.Perf.Metrics
 Firebase.Perf.Metrics.Resource
@@ -981,13 +968,11 @@ Firebase.RemoteConfig.Internal
 Firebase.RemoteConfig.Internal.Rollouts
 Firebase.RemoteConfig.InterOp
 Firebase.RemoteConfig.InterOp.Rollouts
-Firebase.RemoteConfig.Ktx
 Firebase.RemoteConfigInterOp
 Firebase.Sessions
 Firebase.Sessions.Api
 Firebase.Storage
 Firebase.Storage.Internal
-Firebase.Storage.Ktx
 Firebase.Storage.Network
 Firebase.Storage.Network.Connection
 Firebase.Tracing
