@@ -7,18 +7,6 @@ variables:
 - template: build/ci/variables.yml
 
 stages:
-- stage: build_windows
-  displayName: Build - Windows
-  jobs:
-  - template: build/ci/build.yml@self
-    parameters:
-      name: windows
-      buildPool:
-        name: $(NetCorePublicPoolName)
-        demands:
-        - ImageOverride -equals $(WindowsPoolImageNetCorePublic)
-      use1ESTemplate: false
-      installAndroidDependencies: true
 
 - stage: build_mac
   displayName: Build - Mac
